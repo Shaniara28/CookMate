@@ -1,0 +1,259 @@
+/* Profile page */
+.profile-page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(253, 253, 244);
+    overflow-x: hidden;
+}
+
+/* Profile */
+.profile-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -90px;
+    z-index: 5;
+}
+
+/* Profile image */
+.profile-photo-wrapper {
+    position: relative;
+    width: 115px;
+    height: 115px;
+}
+
+.profile-photo {
+    width: 115px;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+}
+
+.edit-profile-button {
+    position: absolute;
+    right: -2px;
+    bottom: 5px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #f4c400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile name */
+.profile-name {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    min-width: 100px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* Tabs */
+.profile-tabs {
+    width: 100%;
+    display: flex;
+    gap: 55px;
+    padding-left: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.profile-tab {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 14px 0 15px;
+    font-size: 14px;
+    color: #777777;
+}
+
+.profile-tab.active {
+    color: #f4b900;
+    font-weight: 600;
+}
+
+/* Active underline */
+.profile-tab.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 2px;
+    background-color: #f4b900;
+}
+
+/* Recipe List */
+/* Recipe List */
+.recipe-list {
+    padding: 20px 8px 35px;
+}
+
+.recipe-card {
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.recipe-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.recipe-actions {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    display: flex;
+    gap: 7px;
+}
+
+.recipe-action {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.recipe-action.edit {
+    background-color: #ffffff;
+    color: #777777;
+}
+
+.recipe-action.delete {
+    background-color: #ff6868;
+    color: #ffffff;
+}
+
+.recipe-info {
+    padding: 12px 14px 13px;
+}
+
+.recipe-name {
+    margin: 0 0 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recipe-meta {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    color: #777777;
+    font-size: 11px;
+}
+
+.recipe-meta span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.recipe-meta i {
+    font-size: 14px;
+    color: #777777;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .profile-banner {
+        height: 120px;
+    }
+
+    .profile-info {
+        margin-top: -45px;
+    }
+
+    .profile-photo-wrapper,
+    .profile-photo {
+        width: 95px;
+        height: 95px;
+    }
+
+    .profile-tabs {
+        gap: 35px;
+    }
+
+    .recipe-image-wrapper {
+        height: 160px;
+    }
+
+    .recipe-name {
+        font-size: 14px;
+    }
+
+    .recipe-meta {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .profile-banner {
+        height: 100px;
+        border-radius: 0;
+    }
+
+    .profile-info {
+        margin-top: -38px;
+    }
+
+    .profile-photo-wrapper,
+    .profile-photo {
+        width: 76px;
+        height: 76px;
+    }
+
+    .edit-profile-button {
+        width: 23px;
+        height: 23px;
+        font-size: 9px;
+    }
+
+    .profile-tabs {
+        gap: 25px;
+        padding-left: 15px;
+    }
+
+    .recipe-list {
+        padding: 15px 10px;
+    }
+
+    .recipe-image-wrapper {
+        height: 125px;
+    }
+}

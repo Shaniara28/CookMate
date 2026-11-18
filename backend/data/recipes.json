@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Creamy Garlic Chicken",
+        "description": "A creamy and flavorful chicken dish with garlic and parmesan cheese.",
+        "ingredients": "Chicken breast, garlic, butter, heavy cream, parmesan cheese, salt, pepper",
+        "instructions": "Season the chicken with salt and pepper. Cook the chicken until golden brown. Saute garlic with butter. Add cream and parmesan cheese. Return the chicken to the pan and simmer until cooked.",
+        "image": "https://www.themealdb.com/images/media/meals/1529444830.jpg",
+        "category": "Chicken",
+        "UserId": 1
+    },
+    {
+        "id": 2,
+        "name": "Spaghetti Aglio e Olio",
+        "description": "A simple Italian pasta made with garlic, olive oil and chili.",
+        "ingredients": "Spaghetti, garlic, olive oil, chili flakes, parsley, salt",
+        "instructions": "Boil spaghetti until al dente. Heat olive oil in a pan. Saute sliced garlic and chili flakes. Add the cooked spaghetti. Mix well and garnish with parsley.",
+        "image": "https://www.themealdb.com/images/media/meals/ustsqw1511381842.jpg",
+        "category": "Pasta",
+        "UserId": 2
+    },
+    {
+        "id": 3,
+        "name": "Beef Rendang",
+        "description": "A rich Indonesian beef dish slowly cooked with coconut milk and aromatic spices.",
+        "ingredients": "Beef, coconut milk, lemongrass, galangal, garlic, chili, shallots",
+        "instructions": "Blend the spices. Saute the spice mixture. Add beef and coconut milk. Cook slowly until the sauce becomes thick. Continue cooking until the beef is tender.",
+        "image": "https://www.themealdb.com/images/media/meals/bc8v651619789840.jpg",
+        "category": "Beef",
+        "UserId": 3
+    },
+    {
+        "id": 4,
+        "name": "Chicken Teriyaki",
+        "description": "Japanese-style chicken cooked with a sweet and savory teriyaki sauce.",
+        "ingredients": "Chicken, soy sauce, honey, garlic, ginger, sesame seeds",
+        "instructions": "Cut the chicken into bite-sized pieces. Mix soy sauce, honey, garlic and ginger. Cook the chicken until golden. Add the teriyaki sauce. Simmer until the sauce thickens.",
+        "image": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg",
+        "category": "Chicken",
+        "UserId": 1
+    },
+    {
+        "id": 5,
+        "name": "Classic Pancakes",
+        "description": "Soft and fluffy pancakes perfect for breakfast.",
+        "ingredients": "Flour, milk, egg, sugar, baking powder, butter, salt",
+        "instructions": "Mix flour, sugar, baking powder and salt. Add milk and egg. Mix until combined. Heat a pan and add butter. Pour the batter and cook both sides until golden.",
+        "image": "https://www.themealdb.com/images/media/meals/rwuyqw1511383174.jpg",
+        "category": "Breakfast",
+        "UserId": 4
+    },
+    {
+        "id": 6,
+        "name": "Chicken Fried Rice",
+        "description": "A quick and delicious fried rice with chicken and vegetables.",
+        "ingredients": "Cooked rice, chicken, egg, carrot, peas, garlic, soy sauce",
+        "instructions": "Cook the chicken until done. Saute garlic and vegetables. Add the egg and scramble. Add cooked rice and chicken. Season with soy sauce and stir-fry until well combined.",
+        "image": "https://www.themealdb.com/images/media/meals/1529444830.jpg",
+        "category": "Rice",
+        "UserId": 5
+    },
+    {
+        "id": 7,
+        "name": "Creamy Mushroom Pasta",
+        "description": "Creamy pasta with mushrooms and parmesan cheese.",
+        "ingredients": "Pasta, mushrooms, garlic, butter, heavy cream, parmesan cheese",
+        "instructions": "Cook pasta until al dente. Saute mushrooms and garlic with butter. Add heavy cream and parmesan cheese. Add the cooked pasta and mix until creamy.",
+        "image": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+        "category": "Pasta",
+        "UserId": 2
+    },
+    {
+        "id": 8,
+        "name": "Beef Burger",
+        "description": "Juicy homemade beef burger served with fresh vegetables.",
+        "ingredients": "Ground beef, burger bun, lettuce, tomato, onion, cheese, salt, pepper",
+        "instructions": "Season the ground beef and form a patty. Cook the patty on a hot pan or grill. Toast the bun. Assemble the burger with lettuce, tomato, onion and cheese.",
+        "image": "https://www.themealdb.com/images/media/meals/1559444830.jpg",
+        "category": "Beef",
+        "UserId": 5
+    }
+]

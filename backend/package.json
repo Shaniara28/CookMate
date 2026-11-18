@@ -1,0 +1,40 @@
+{
+  "name": "rmt-77-ip-shaniara28",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --detectOpenHandles --verbose",
+    "dev": "node --watch ./bin/http.js",
+    "prod": "node ./bin/http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaniara28/rmt-77-ip-shaniara28.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shaniara28/rmt-77-ip-shaniara28/issues"
+  },
+  "homepage": "https://github.com/Shaniara28/rmt-77-ip-shaniara28#readme",
+  "dependencies": {
+    "@google/genai": "^2.28.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "email-validator": "^2.0.4",
+    "express": "^5.2.1",
+    "google-auth-library": "^11.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.1",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "sequelize-cli": "^6.6.5",
+    "supertest": "^7.3.1"
+  }
+}
